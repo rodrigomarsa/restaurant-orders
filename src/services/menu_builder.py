@@ -34,7 +34,7 @@ class MenuBuilder:
                 "price": dish.price,
                 "restrictions": dish.get_restrictions(),
             }
-            if (
+            if self.inventory.check_recipe_availability(dish.recipe) and (
                 restriction is None
                 or restriction not in dish.get_restrictions()
             ):
