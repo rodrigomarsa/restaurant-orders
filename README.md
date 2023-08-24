@@ -304,8 +304,6 @@ Ao longo de sua implementação você deve garantir que:
 <br>
 
 
-# Requisitos bônus:
-
 ## 5 - Estoque de ingredientes
 
 A gestão de estoque do Restaurante 🍝 🦐 Chapa Quente 🍛 🥘 também é feita por meio de um arquivo csv. Para o controle de estoque é usado um arquivo em que cada uma das linhas contém um ingrediente e sua respectiva quantidade inicial no estoque. Seu objetivo neste requisito é finalizar o desenvolvimento da classe que fará o controle do estoque de ingredientes.
